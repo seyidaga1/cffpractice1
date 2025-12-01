@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Models
 {
-    internal class Book
+    internal class Book 
     {
         public string Title { get; set; }
         public int Year { get; set; }
 
-        public void DisplayInfo()
+        public void DisplayInformation()
         {
             Console.WriteLine($"Title: {Title}, Year: {Year}");
         }
